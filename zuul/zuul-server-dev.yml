@@ -9,9 +9,9 @@ spring:
     name: zuul-server
 zuul:
   routes:
-    api-a:
+    user:
       path: /user/**
       serviceId: user-service
-    api-b:
+    goods:
       path: /goods/**
       serviceId: goods-service
