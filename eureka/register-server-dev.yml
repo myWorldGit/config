@@ -5,7 +5,7 @@ spring:
     base-url: http://localhost:12000
     sleuth:
       sampler:
-      percentage: 1.0
+        probability: 1
 eureka:
   server:
       enable-self-preservation: false
