@@ -3,9 +3,7 @@ spring:
     name: eureka-server
   zipkin:
     base-url: http://localhost:12000
-    sleuth:
-      sampler:
-        probability: 1
+    
 eureka:
   server:
       enable-self-preservation: false
